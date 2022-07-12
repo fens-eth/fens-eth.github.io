@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Evan Fenster</title>
+        <link rel="icon" type="image/png" href="images/favicon-32x32.png" />
+        <link rel="stylesheet" href="styles.css" />
+        <link
+          rel="stylesheet"
+          href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+          integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+          crossorigin="anonymous"
+        />
+    </head>
+    <body>
+        <!-- Navbar -->
+        <nav class="navbar">
+            <div class="navbar_container">
+                <a href="#home" id="navbar_logo">Evan Fenster</a>
+                <div class="navbar_toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="navbar_menu">
+                    <li class="navbar_item">
+                        <a href="#home" class="navbar_links" id="home-page">Home</a>
+                    </li>
+                    <li class="navbar_item">
+                        <a href="#work" class="navbar_links" id="work-page">Work</a>
+                    </li>
+                    <li class="navbar_item">
+                        <a href="#education" class="navbar_links" id="education-page">Activities</a>
+                    </li>
+                    <li class="navbar_btn">
+                        <a href="EvanFensterResume.pdf" class="button" target="_blank" id="contact-button">Resume</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <div class="hero" id="home">
+            <div class="hero_container">
+                <div class="pfp">
+                    <img src = "images/portrait.jpg" />
+                </div>
+                <h1 class="hero_heading">Hey, I'm <span>Evan!</span></h1>
+                <p class="intro">I am a rising junior at the <span class="penn">University of Pennsylvania</span> 
+                    studying business at Wharton (undergrad) as well as computer science (accelerated Masters). My expected graduation date is May 2024.</p>
+                <br>
+                <p class = "intro">I am passionate about blockchain technologies, specifically developing new use-cases for NFTs and DeFi. I am currently working as a Research and Innovation intern with the <span class="celo">Celo Foundation</span> in San Francisco.</p>
+                <button class="main_btn"><a href="EvanFensterResume.pdf" target="_blank">View Resume</a></button>
+            </div>
+        </div>
+
+        <!-- Work Section -->
+        <div class="work" id="work">
+            <h1 class="fancy_title">My Work in Web3</h1>
+            <div class="work_wrapper">
+                <div class="work_card">
+                    <h2>Celo Foundation</h2>
+                    <p>Research and Innovation Intern</p>
+                    <div class="work_btn"><button><a href="#celo">Learn More</a></button></div>
+                </div>
+                <div class="work_card">
+                    <h2>Wharton DAO Census</h2>
+                    <p>Research Assistant</p>
+                    <div class="work_btn"><button><a href="#wharton">Learn More</a></button></div>
+                </div>
+                <div class="work_card">
+                    <h2>Owl Protocol</h2>
+                    <p>Software Engineer Intern</p>
+                    <div class="work_btn"><button><a href="#owl">Learn More</a></button></div>
+                </div>
+                <div class="work_card">
+                    <h2>Penguin Protection Party</h2>
+                    <p>Co-Founder</p>
+                    <div class="work_btn"><button><a href="#penguin">Learn More</a></button></div>
+                </div>
+            </div>
+            <!-- Experiences Container  -->
+            <div class="sections_container" id="sections_container">
+                <!-- Celo Foundation Section -->
+                <div class="celo_main" id="celo">
+                    <div class="section_container">
+                        <img src="images/celo.png" alt="celo_logo" class="logo_img">
+                        <br>
+                        <p class="body_info">Creating a decentralized rewards protocol</p>
+                        <br>
+                        <div class="report_btn"><button><a href="https://celo.org/" target="_blank">Visit Site</a></button></div>
+                        <br>
+                        <div class="report_btn"><button>Report Coming Soon...</button></div>
+                    </div>
+                </div>
+                
+                <!-- Wharton DAO Census Section -->
+                <div class="wharton_main" id="wharton">
+                    <div class="section_container">
+                        <img src="images/wharton.png" alt="wharton_logo" class="logo_img">
+                        <br>
+                        <p class="body_info">Researching the DAO landscape with Professors Werbach and Mollick</p>
+                        <br>
+                        <div class="report_btn"><button>Report Coming Soon...</button></div>
+                    </div>
+                </div>
+                
+                <!-- Owl Protocol Section -->
+                <div class="owl_main" id="owl">
+                    <div class="section_container">
+                        <img src="images/owl.png" alt="owl_logo" class="logo_img">
+                        <br>
+                        <p class="body_info">Began development for a Zapier integration to read live data off EVM networks</p>
+                        <br>
+                        <div class="report_btn"><button><a href="https://owlprotocol.xyz/" target="_blank">Visit Site</a></button></div>
+                    </div>
+                </div>
+                
+                <!-- Penguin Protection Party Section -->
+                <div class="penguin_main" id="penguin">
+                    <div class="section_container">
+                        <img src="images/PPP.png" alt="penguin_logo" class="logo_img">
+                        <br>
+                        <p class="body_info">Created an NFT series to support penguin conservation efforts with the Global Penguin Society</p>
+                        <br>
+                        <div class="report_btn"><button><a href="https://www.penguinprotectionparty.com/" target="_blank">Visit Site</a></button></div>
+                    </div>
+                </div>
+                <hr width="70%" align="center">
+            </div>
+        </div>
+
+
+        <!-- Education Section -->
+        <div class="main" id="education">
+            <h1 class="fancy_title">Activities</h1>
+            <div class="main_container">
+                <div class="main_img-container">
+                    <div class="main_img-card"><img src="images/sprintFootball.JPG" alt="sprint-football" class="photo"></div>
+                </div>
+                <div class="main_content">
+                    <h1>Running back</h1>
+                    <h2 class="penn">Sprint Football</h2>
+                    <p>I play running back for UPenn's Sprint Football team, an NCAA-affiliated lightweight football league.</p>
+                    <button class="main_btn"><a href="https://pennathletics.com/sports/sprint-football" target="_blank">Learn More</a></button>
+                </div>
+            </div>
+            <div class="main_container">
+                <div class="main_content">
+                    <h1>Research Team</h1>
+                    <h2 class="penn">Penn Blockchain & FranklinDAO</h2>
+                    <p>I contribute to the Penn blockchain club and associated DAO.</p>
+                    <button class="main_btn"><a href="http://pennblockchain.com/" target="_blank">Learn More</a></button>
+                </div>
+                <div class="main_img-container">
+                    <div class="main_img-card"><img src="images/pennbc.JPG" alt="penn-bc" class="photo"></div>
+                </div>
+            </div>
+            <div class="main_container">
+                <div class="main_img-container">
+                    <blockquote class="twitter-tweet" data-theme="light"><p lang="en" dir="ltr">NFTs today are lacking in utility, especially when they have so much potential in the commerce space 🛒<br><br>here&#39;s how we can apply the community-service agriculture (CSA) model to other industries using NFTs 🧵1/11</p>&mdash; fens.eth (@EvanFenster) <a href="https://twitter.com/EvanFenster/status/1536779821069398016?ref_src=twsrc%5Etfw">June 14, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+                <div class="main_content">
+                    <h1>@EvanFenster</h1>
+                    <h2 class="normal_title">Twitter Threads</h2>
+                    <p>Check out my Twitter where I post my thoughts and ideas concerning DeFi and NFTs (and occasionally a Philly sports rant or two). </p>
+                    <button class="main_btn"><a href="https://twitter.com/EvanFenster" target="_blank">Twitter</a></button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Section -->
+        <div class="footer_container">
+            <section class="social_media">
+                <div class="social_media-wrap">
+                    <div class="footer_logo">
+                        <a href="/" id="footer_logo">Evan Fenster</a>
+                    </div>
+                    <p class="website_rights">© EF 2022. All rights reserved</p>
+                    <div class="social_icons">
+                        <a href="https://www.linkedin.com/in/evanfen/" class="social_icon-link" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://twitter.com/EvanFenster" class="social_icon-link" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://t.me/evanfen" class="social_icon-link" target="_blank">
+                            <i class="fab fa-telegram"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <script src="app.js"></script>
+    </body>
+</html>
