@@ -6,6 +6,11 @@
     scroll-behavior: smooth;
 }
 
+hr {
+  width: 70%;
+  margin-left: 15%;
+}
+
 .navbar {
     background: #131313;
     height: 80px;
@@ -194,8 +199,8 @@
 
   /* Hero Section */
   .hero{
-    background: #000000;
-    background: linear-gradient(to right, #161616, #000000);
+    background: #f8f8f8;
+    /* background: linear-gradient(to right, #b8b8b8, #fff); */
     padding: 50px 0;
   }
 
@@ -212,8 +217,8 @@
   }
 
   img {
-    height: 100%;
-    width: 100%;
+    height: 75%;
+    width: 75%;
     object-fit: cover;
     border-radius: 50%;
    }
@@ -223,9 +228,9 @@
    }
 
   .hero_heading {
-    font-size: 70px;
+    font-size: 50px;
     margin-bottom: 24px;
-    color: #fff;
+    color: rgb(0, 0, 0);
   }
 
   .hero_heading span {
@@ -269,7 +274,7 @@
     padding-left: 8%;
     padding-right: 8%;
     font-size: 25px;
-    color: #fff;
+    color: rgb(0, 0, 0);
   }
 
   .hero_description {
@@ -305,7 +310,7 @@
 
   /* Work Section */
   .work {
-    background: #131313;
+    background: #e7e7e7;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -323,8 +328,8 @@
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
-    margin-bottom: 2rem;
-    font-size: 4.5rem;
+    margin-bottom: 1rem;
+    font-size: 3rem;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -351,9 +356,9 @@
 
   .work_card {
     margin: 10px;
-    height: 425px;
+    height: 300px;
     width: 300px;
-    border-radius: 4px;
+    border-radius: 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -437,7 +442,7 @@
 
 
   /* Section Backgrounds */
-  .sections_container {
+  /* .sections_container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -474,10 +479,10 @@
     background: #d6c27e;
     background: linear-gradient(to right,#d6c27e,#aebeb9);
     padding: 20px 0;
-  }
+  } */
 
   /* Section Elements */
-
+/* 
   .section_container {
     display: flex;
     flex-direction: column;
@@ -525,12 +530,12 @@
     padding-right: 8%;
     font-size: 2rem;
     color: #111214;
-  }
+  } */
 
   /* Education Section */
   .main {
-    background-color: #131313;
-    padding: 10rem 0;
+    background-color: #f8f8f8;
+    padding: 2rem 0;
   }
 
   .main_container {
@@ -542,14 +547,11 @@
     height: 90%;
     z-index: 1;
     width: 100%;
-    max-width: 1300px;
-    padding: 0 50x;
-    padding: 40px;
-    margin-top: 1%;
+    max-width: 1000px;
   }
 
   .main_content {
-    color: #fff;
+    color: #000000;
     width: 100%;
   }
 
@@ -564,11 +566,10 @@
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
     text-transform: uppercase;
-    margin-bottom: 32px;
   }
 
   .main_content h2 {
-    font-size: 4rem;
+    font-size: 3rem;
     background-size: 100%;
     background-clip: border-box;
     -webkit-background-clip: text;
@@ -579,16 +580,16 @@
 
   .main_content p {
     margin-top: 1rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 700;
   }
 
   .main_btn {
-    font-size: 1.8rem;
+    font-size: 1rem;
     background: #833ab4;
     background: linear-gradient(to right, #59C173,#a17fe0, #5D26C1);
     background-size: 100%;
-    padding: 20px 60px;
+    padding: 10px 30px;
     border: none;
     border-radius: 4px;
     margin-top: 2rem;
@@ -600,7 +601,7 @@
 
   .main_btn a {
     position: relative;
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     font-weight: 500;
     z-index: 2;
     color: #fff;
@@ -630,16 +631,18 @@
 
   .main_img-container {
     text-align: center;
+    width: 60%;
+    height: auto;
   }
 
   .main_img-card {
-    margin: 10px;
-    height: 500px;
     width: 500px;
+    height: 400px;
     border-radius: 4px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     color: transparent;
   }
 
@@ -656,8 +659,9 @@
 
   .photo {
     border-radius: 15% 5%;
+    justify-content: center;
+    align-items: center;
   }
-
 
   /* Mobile Responsive */
 @media screen and (max-width: 1100px) {
@@ -672,13 +676,13 @@
   }
 
   .main_img-container {
-    display: flex;
     justify-content: center;
+    align-items: center;
   }
 
   .main_img-card {
     height: 425px;
-    width: 425px;
+    width: auto;
   }
 
   .main_content {
@@ -734,7 +738,7 @@
 /* Footer Section */
 .footer_container {
   background-color: #131313;
-  padding: 5rem 0;
+  padding: 1rem 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
